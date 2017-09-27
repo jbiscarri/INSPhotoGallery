@@ -178,7 +178,7 @@ open class INSPhotosViewController: UIViewController, UIPageViewControllerDataSo
         
         // This fix issue that navigationBar animate to up
         // when presentingViewController is UINavigationViewController
-        statusBarHidden = true
+        //statusBarHidden = true
         UIView.animate(withDuration: 0.25) { () -> Void in
             self.setNeedsStatusBarAppearanceUpdate()
         }
